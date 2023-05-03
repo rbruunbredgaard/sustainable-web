@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- No links, no follow start - siden vil ikke blive crowlet og billede kan bruges uden copyright -->
+    <meta name="robots" content="nofollow"/>
+    <meta name="robots" content="noindex, follow"/>
+    <!-- No links, no follow slut -->
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Sustainable web</title>
+</head>
+<body>
+    <!-- Mobile navigation bar: start -->
+    <section class="dropdown-menu">
+        <button onclick="myFunction()" class="">Dropdown</button>
+        <i class=" flogo fa fa-bars"></i>
+        <section id="myDropdown" class="dropdown-content">
+          <a href="#">Environmental sustainability</a>
+          <a href="#">Social sustainability</a>
+          <a href="#">Economic sustainability</a>
+        </section>
+    </section>
+    <!-- Mobile navigation bar: end -->
+
+    <!-- Content of the page: start -->
+    <section class="sustainable-web-introduction">
+        <h1>Sustainable web</h1>
+        <p class="body">Sustainability can be divided into three different categories; Environmental, Social and Economic. Each category has its impact on the overall term of sustainability.</p>
+        <p class="body">Choose a category below and you will learn more about, how it impacts sustainability in relation to web design.</p>
+    </section>
+
+    <section class="overview-sustainability">
+        <img class="image-sustainability" src="images/sustainability-model.png" alt="model of sustainability types">
+    </section>
+
+    <section class="categories">
+        <div class="environmental-button">
+            <a href="?">
+                <p class="button-text">Environmental</p>
+            </a>
+        </div>
+
+        <div class="social-button">
+            <a href="?">
+                <p class="button-text">Social</p>
+            </a>
+        </div>
+
+        <div class="economic-button">
+            <a href="?">
+                <p class="button-text">Economic</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="environmental-sustainability">
+        <section class="environmental-h2-green">
+            <h2>Environmental sustainability</h2>
+            <p class="environmental-body">Environmental sustainability is one way to work with sustainability.  With a focus on environmental sustainability you will look into consumption of electricity and carbon.</p>
+            <p class="environmental-body">“If the internet were a country, it would be the sixth most polluting country in the world, with annual emissions similar to those of Germany”. (Tom Greenwood: Sustainable Web Design, 2021, p. 4). With this quote in mind, you have the opportunity to design more sustainable web solutions for your clients.</p>
+        </section>
+
+        <section class="environmental-h3-white">
+            <h3>Working with images</h3>
+            <p class="environmental-body">Images are one of the elements that can have a negative impact at the carbon consumption. By choosing the right file type you can reduce the size of the image. You can also use lazy load, so the images only will be loaded if the user is looking at them.</p>
+        </section>
+    </section>
+
+    <section class="social-sustainability">
+        <section class="social-h2-green">
+            <h2>Social sustainability</h2>
+            <p class="social-body">Social sustainability is another way to work with sustainability. With a focus on social sustainability you also have a focus on inclusive design and accessibility. With inclusive design you create products and services that understand and enable people of all backgrounds and abilities. This focus can also have a positive impact at the user experience of the product or service.</p>
+            <p class="social-body">Up to 20% of the population have challenges online, why it is important to design your digital products and services with their disability in mind. Disabilities can be permanent, temporary or situational and can affect different senses. This is visualised below.</p>
+        </section>
+
+        <section>
+            <img class="disabilities" src="images/infographic-disabilities.png" alt="">
+            <p class="images-description">Infographic of different disabilities in relation to senses and time frame (<a class="link-ud" href="https://devblogs.microsoft.com/xamarin/the-journey-to-accessible-apps/">Microsoft</a>, 2021)</p>
+        </section>
+
+        <section class="social-h3-green">
+            <h3>WCAG (Web Content Accessibility Guidelines)</h3>
+            <p class="social-body">The <a class="link-ud" href="https://www.w3.org">Wide Web Consortium</a> (W3C) has developed WCAG which includes a wide range of recommendations for making web content more accessible. The guidelines are divided into four main principles. These principles are Perceivable, Operable, Understandable and Robust. The WCAG is categorised into three levels of conformance: A (lowest), AA (mid range) and AAA (highest). From June 1, 2025, all companies have to meet the standard of AA. This requires the companies to follow this standard but also the design agencies to develop products and services that follow this standard.</p>
+        </section>
+
+        <section class="social-h3-white">
+            <h3>How do the design agencies work with WCAG?</h3>
+            <p class="social-body">At the moment it varies a lot how much the design agencies have incorporated WCAG in their work. Some of the recommendations are incorporated naturally due to design principles. Most of the design agencies are working with contrast in relation to colours, size, shapes etc. But it is not only about the design agencies it is also about their clients. To incorporate the WCAG costs time and money, why some of the clients do not prioritise accessibility for their digital products and services. The design agencies explore that their smaller clients like startups are not that interested in accessibility, where the bigger and more international clients have a focus at it.</p>
+        </section>
+
+        <section class="social-h3-green">
+            <h3>How to work with WCAG in the future?</h3>
+            <p class="social-body">To design your product or service for the best accessibility, you have to understand your users and their needs. User research and testing will therefore be an important part of your process.</p>
+            <p class="social-body">It is important to work with a hierarchy and a structure in your design - both for the visual design that the users are able to see but also in the coding of HTML, CSS, JS etc. This will have an impact for the users who use screen readers. Another important element for users who use screen readers is the alternative text for images. By adding an alt attribute for the images, the users with a disability of seeing, will be able to know, what the images represent.</p>
+        </section>
+    </section>
+
+    <!-- Mobile footer: start -->
+    <footer class="mobile-footer">
+        <img class="footer-icon" src="images/icon-sustainability.svg" alt="">
+        <img class="footer-icon" src="images/icon-search.svg" alt="">
+        <img class="footer-icon" src="images/icon-news.svg" alt="">
+    </footer>
+    <!-- Mobile footer: end -->
+</body>
+</html>

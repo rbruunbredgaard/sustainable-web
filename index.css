@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --green: #95BDA3;
+    --dark-green: #1F5E55;
+    --light-green: #DFEBE3;
+    --white: #fff; 
+    --textblack: #231F20;
+    --helvetica: helvetica, sans-serif, arial;
+}
+
+/* Mobile navigation bar: start */
+.flogo {
+    color: var(--textblack);
+    font-size: 32px;
+    margin: 8px 16px 16px 16px;
+    align-items: right;
+}
+/* Navigation bar mobile: end */
+
+/* Content for the page: start */
+.sustainable-web-introduction{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+h1{
+    font-family: var(--helvetica);
+    color: var(--textblack);
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.body{
+    font-family: var(--helvetica);
+    color: var(--textblack);
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.image-sustainability{
+    width: 70%;
+    margin: 0 6% 32px 6%;
+}
+
+.categories{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.environmental-button{
+    background-color: #D9D9D9;
+    height: 48px;
+    width: 108px; 
+    margin: auto;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 6px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button-text{
+    font-family: var(--helvetica);
+    color: var(--textblack);
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.social-button{
+    background-color: #D9D9D9;
+    height: 48px;
+    width: 108px; 
+    margin: auto;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 6px 0 rgba(0, 0, 0, 0.19);
+}
+
+.economic-button{
+    background-color: #D9D9D9;
+    height: 48px;
+    width: 108px; 
+    margin: auto;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 6px 0 rgba(0, 0, 0, 0.19);
+}
+
+.environmental-sustainability{}
+
+.environmental-h2-green{
+    background-color: var(--green);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 32px;
+}
+
+h2{
+    font-family: var(--helvetica);
+    color: var(--textblack);
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 6%;
+    margin-bottom: 8px;
+}
+
+.environmental-body{
+    font-family: var(--helvetica);
+    color: var(--textblack);
+    font-size: 14px;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.environmental-h3-white{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+h3{
+    font-family: var(--helvetica);
+    color: var(--textblack);
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-left: 6%;
+    margin-bottom: 8px;
+}
+
+.social-h2-green{
+    background-color: var(--green);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 32px;
+}
+
+.social-body{
+    font-family: var(--helvetica);
+    color: var(--textblack);
+    font-size: 14px;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.disabilities{
+    margin: 16px 16px 8px 16px;
+    width: 88%;
+}
+
+.images-description{
+    font-family: var(--helvetica);
+    color: var(--textblack);
+    font-size: 10px;
+    margin-left: 6%;
+    margin-right: 6%;
+    text-align: right;
+}
+
+.link-ud{
+    color: var(--textblack);
+    text-decoration: underline;
+}
+
+.social-h3-green{
+    background-color: var(--green);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 16px;
+}
+
+.social-h3-white{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+/* Content for the page: end */
+
+/* Mobile fotter: start */
+footer{
+    background-color: var(--light-green);
+    height: 64px;
+    padding: ;
+}
+
+.footer-icon{
+    width: 32px;
+    
+}
+/* Mobile fotter: end */
